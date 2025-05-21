@@ -1,0 +1,130 @@
+# trustee-rvps-cm.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: rvps-reference-values
+  namespace: trustee-operator-system
+data:
+  reference-values.json: |
+    [
+    {
+        "name": "init_data",
+        "expiration": "2025-09-09T00:00:00Z",
+        "hash-value": [
+          {
+                "alg": "sha256",
+                "value": "f754f893653bb36dafbb2b5c12de2a88f1725374ad59df818e84622c7f7bead1"
+          }
+        ]
+     },
+      {
+        "name": "measurement",
+        "expiration": "2025-09-09T00:00:00Z",
+        "hash-value": [
+          {
+                "alg": "sha256",
+                "value": "AQqOW3wnDR2bPHnfJHNmCn2sQnqjEhqlQdZZRs2yTCEBMUlf5gAD6Orqyjv57MYb"
+          }
+        ]
+     },
+     {
+        "name": "tcb_bootloader",
+        "expiration": "2025-09-09T00:00:00Z",
+        "hash-value": [
+          {
+                "alg": "sha256",
+                "value": "3"
+          }
+        ]
+     },
+     {
+        "name": "tcb_microcode",
+        "expiration": "2025-09-09T00:00:00Z",
+        "hash-value": [
+          {
+                "alg": "sha256",
+                "value": "213"
+          }
+        ]
+     },
+     {
+        "name": "tcb_snp",
+        "expiration": "2025-09-09T00:00:00Z",
+        "hash-value": [
+          {
+                "alg": "sha256",
+                "value": "22"
+          }
+        ]
+     },
+     {
+        "name": "tcb_tee",
+        "expiration": "2025-09-09T00:00:00Z",
+        "hash-value": [
+          {
+                "alg": "sha256",
+                "value": "0"
+          }
+        ]
+     },
+     {
+        "name": "smt_enabled",
+        "expiration": "2025-09-09T00:00:00Z",
+        "hash-value": [
+          {
+                "alg": "sha256",
+                "value": "1"
+          }
+        ]
+     },
+     {
+        "name": "tsme_enabled",
+        "expiration": "2025-09-09T00:00:00Z",
+        "hash-value": [
+          {
+                "alg": "sha256",
+                "value": "0"
+          }
+        ]
+     },
+     {
+        "name": "abi_major",
+        "expiration": "2025-09-09T00:00:00Z",
+        "hash-value": [
+          {
+                "alg": "sha256",
+                "value": "0"
+          }
+        ]
+     },
+     {
+        "name": "abi_minor",
+        "expiration": "2025-09-09T00:00:00Z",
+        "hash-value": [
+          {
+                "alg": "sha256",
+                "value": "0"
+          }
+        ]
+     },
+     {
+        "name": "single_socket",
+        "expiration": "2025-09-09T00:00:00Z",
+        "hash-value": [
+          {
+                "alg": "sha256",
+                "value": "0"
+          }
+        ]
+     },
+     {
+        "name": "smt_allowed",
+        "expiration": "2025-09-09T00:00:00Z",
+        "hash-value": [
+          {
+                "alg": "sha256",
+                "value": "1"
+          }
+        ]
+     }
+    ]
