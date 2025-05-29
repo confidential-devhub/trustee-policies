@@ -65,10 +65,9 @@ data:
 
     ##### Azure vTPM TDX
     executables := 3 if {
-      # Check the kernel, initrd, and cmdline (including dmverity parameters) measurements
-      # TODO: add individual CCEL measurements from input.tdx.ccel instead
-      input.aztdxvtpm.quote.body.rtmr_1 in data.reference.rtmr_1
-      input.aztdxvtpm.quote.body.rtmr_2 in data.reference.rtmr_2
+      input.aztdxvtpm.tpm.pcr11 in data.reference.tdx_pcr11
+      input.aztdxvtpm.tpm.pcr12 in data.reference.tdx_pcr12
+
     }
 
     hardware := 2 if {
