@@ -8,12 +8,22 @@ data:
   reference-values.json: |
     [
      {
-        "name": "tdx_pcr08",
+        "name": "tdx_pcr11",
         "expiration": "2025-09-09T00:00:00Z",
         "hash-value": [
           {
                 "alg": "sha256",
-                "value": "f754f893653bb36dafbb2b5c12de2a88f1725374ad59df818e84622c7f7bead1"
+                "value": "25f988b8b92a8394ee6c2413fe7bde77929ec143151df0a582f52d6c7ccba94c"
+          }
+        ]
+     },
+     {
+        "name": "tdx_pcr12",
+        "expiration": "2025-09-09T00:00:00Z",
+        "hash-value": [
+          {
+                "alg": "sha256",
+                "value": "ab45624dae8e56a3b7835ece6d95d764ff675806778a1a716004cdff886f8f30"
           }
         ]
      },
